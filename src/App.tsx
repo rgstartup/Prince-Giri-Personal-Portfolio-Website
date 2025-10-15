@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import Lenis from 'lenis'
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { WhyHireMe } from "./components/WhyHireMe";
@@ -20,6 +21,21 @@ import { Header } from "./components/Header";
 function App() {
   useEffect(() => {
     gsap.registerPlugin(ScrollToPlugin);
+    // Initialize Lenis for inertial smooth scrolling across the site
+    const lenis = new Lenis({
+      duration: 1.1, // higher = more easing/inertia
+      easing: (t: number) => 1 - Math.pow(1 - t, 3), // easeOutCubic
+      smoothWheel: true,
+      // smoothTouch: false,
+      wheelMultiplier: 1,
+      touchMultiplier: 1.2,
+    });
+
+    const raf = (time: number) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    };
+    requestAnimationFrame(raf);
     const header = document.getElementById("site-header");
     const getHeaderOffset = () => (header ? header.offsetHeight + 8 : 0);
 
@@ -37,12 +53,16 @@ function App() {
 
       e.preventDefault();
       const offset = getHeaderOffset();
-      const y = el.getBoundingClientRect().top + window.pageYOffset - offset;
-      gsap.to(window, { duration: 0.8, scrollTo: { y, autoKill: true }, ease: "power2.out" });
+      const targetY = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      // Use Lenis for programmatic smooth scroll so it matches inertial feel
+      lenis.scrollTo(targetY, { duration: 1, lock: true });
     };
 
     document.addEventListener("click", handleClick);
-    return () => document.removeEventListener("click", handleClick);
+    return () => {
+      document.removeEventListener("click", handleClick);
+      lenis.destroy();
+    };
   }, []);
 
   return (

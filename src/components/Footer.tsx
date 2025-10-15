@@ -39,11 +39,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-slate-300 hover:text-white transition-colors">About Me</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Services</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Portfolio</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-slate-300 hover:text-white transition-colors">Home</a></li>
+              <li><a href="#about" className="text-slate-300 hover:text-white transition-colors">About Me</a></li>
+              <li><a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a></li>
+              <li><a href="#testimonials" className="text-slate-300 hover:text-white transition-colors">Testimonials</a></li>
+              <li><a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -75,7 +75,7 @@ export function Footer() {
                 <div>
                   <p className="text-slate-400 text-sm">Phone</p>
                   <a href="tel:+918669084748" className="text-white hover:text-blue-400 transition-colors">
-                    +91 866 908 4748
+                    +91-7087831018
                   </a>
                 </div>
               </li>

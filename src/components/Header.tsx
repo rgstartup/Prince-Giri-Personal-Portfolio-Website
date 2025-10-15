@@ -16,20 +16,19 @@ export function Header() {
 
   return (
     <header id="site-header"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/70 backdrop-blur-xl ring-1 ring-slate-900/10 shadow-lg py-4"
-          : "bg-transparent py-6"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+        ? "bg-white/70 backdrop-blur-xl ring-1 ring-slate-900/10 shadow-lg py-4"
+        : "bg-transparent py-6"
+        }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-       
+
         <a
           href="#home"
           className="flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-primary rounded-btn"
           aria-label="Go to home"
         >
-            <img src="/black-logo.png" alt="Prince Giri Logo" className="w-10 h-12 md:w-12 md:h-12 rounded-xl object-cover" />
+          <img src="/black-logo.png" alt="Prince Giri Logo" className="w-10 h-12 md:w-12 md:h-12 rounded-xl object-cover" />
           <div className="hidden sm:block">
             <p className="text-text-primary text-2xl font-bold leading-tight">
               Prince Giri
@@ -63,7 +62,7 @@ export function Header() {
 
         {/* CTA Button */}
         <button className="hidden md:flex bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg hover:-translate-y-1 transition-all">
-          Book Free Consultation
+          <a href="tel:7087831018"> Book Free Consultation</a>
         </button>
 
         {/* Mobile Menu Button */}
@@ -97,7 +96,7 @@ export function Header() {
               </a>
             ))}
             <button className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white w-full py-4 rounded-button font-semibold shadow-md mt-4">
-              Book Free Consultation
+              <a href="tel:7087831018">Book Free Consultation</a>
             </button>
           </nav>
         </div>

@@ -2,7 +2,7 @@ import { Search, MousePointerClick, FileText, Share2, Mail, Shield } from 'lucid
 
 export function Services() {
   return (
-    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-blue-50 to-white">
+    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-blue-50 to-white" id='services'>
       <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-blue-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
       <div className="container mx-auto px-6">
@@ -53,7 +53,7 @@ export function Services() {
           ))}
         </div>
 
-        <div className="bg-white/70 backdrop-blur ring-1 ring-slate-200 rounded-2xl p-12 shadow-xl">
+        <div className="bg-white/70 backdrop-blur ring-1 ring-slate-200 rounded-2xl p-12 shadow-xl" id="strategies">
           <h3 className="text-3xl font-bold text-slate-900 mb-12 text-center">
             6 Top Digital Marketing Strategies
           </h3>

@@ -37,7 +37,7 @@ export function Testimonials() {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800">
+    <section id='testimonials' className="py-24 relative overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800">
       {/* Decorative gradient blobs */}
       <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-violet-600/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-500/20 blur-3xl" />

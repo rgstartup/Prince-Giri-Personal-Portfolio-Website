@@ -43,7 +43,7 @@ export function FAQ() {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-slate-50 to-white">
+    <section id='contact' className="py-24 relative overflow-hidden bg-gradient-to-b from-slate-50 to-white">
       <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-violet-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
       <div className="container mx-auto px-6">

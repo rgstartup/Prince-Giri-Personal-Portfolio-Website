@@ -2,7 +2,7 @@ import { ArrowRight, Target, TrendingUp, Zap } from 'lucide-react';
 
 export function About() {
   return (
-    <section className="py-32 bg-gradient-to-b from-white to-blue-50 relative overflow-hidden">
+    <section className="py-32 bg-gradient-to-b from-white to-blue-50 relative overflow-hidden" id='about'>
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-slate-50 to-transparent"></div>
       <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-blue-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />

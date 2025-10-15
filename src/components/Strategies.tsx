@@ -54,7 +54,7 @@ const items = [
 
 export function Strategies() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white" >
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-text-primary">
