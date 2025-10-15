@@ -61,18 +61,18 @@ export function WhyHireMe() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-xl   p-12 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-xl p-6 sm:p-8 lg:p-12 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-          <div className="relative z-10 grid lg:grid-cols-2 gap-8 items-center">
-            <div>
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 items-center">
+            <div className="order-1 lg:order-none">
               <img
                 src="/profile.png"
                 alt="Prince Giri"
                 // className="max-w-md border-0 border-gray-300 relative rounded-xl shadow-[0_0_15px_rgba(255,255,255,0.6)] "
-                className="max-w-md border-0 border-gray-300 relative rounded-xl  "
+                className="w-full max-w-[260px] sm:max-w-sm md:max-w-md h-auto border-0 border-gray-300 relative rounded-xl mx-auto"
               />
             </div>
-            <div className="space-y-6">
+            <div className="space-y-6 order-2 lg:order-none text-center lg:text-left">
               <h2 className="text-3xl font-bold">The Journey So Far</h2>
               <p className="text-base text-slate-200 leading-relaxed">
                 Preparing a good marketing strategy and driving better results
