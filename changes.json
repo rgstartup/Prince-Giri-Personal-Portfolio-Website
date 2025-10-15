@@ -1,0 +1,1251 @@
+{
+  "project_overview": {
+    "project_name": "Prince Giri - Digital Marketing Consultant Portfolio",
+    "design_philosophy": "Modern, professional, conversion-focused design that showcases expertise while maintaining trust and credibility",
+    "primary_goals": [
+      "Establish authority as a digital marketing expert",
+      "Generate quality leads and consultations",
+      "Showcase proven results and expertise",
+      "Create seamless user experience across all devices"
+    ],
+    "target_audience": "Business owners, startups, and companies seeking digital marketing services"
+  },
+
+  "global_design_principles": {
+    "color_scheme": {
+      "primary": "#2563eb (Professional Blue)",
+      "secondary": "#10b981 (Success Green)",
+      "accent": "#f59e0b (Energy Orange)",
+      "neutral_dark": "#1e293b",
+      "neutral_light": "#f8fafc",
+      "text_primary": "#0f172a",
+      "text_secondary": "#64748b"
+    },
+    "typography": {
+      "heading_font": "Inter or Poppins (700-800 weight)",
+      "body_font": "Inter or Open Sans (400-600 weight)",
+      "font_sizes": {
+        "h1": "clamp(2.5rem, 5vw, 4rem)",
+        "h2": "clamp(2rem, 4vw, 3rem)",
+        "h3": "clamp(1.5rem, 3vw, 2rem)",
+        "body": "clamp(1rem, 2vw, 1.125rem)",
+        "small": "0.875rem"
+      }
+    },
+    "spacing_system": "8px base unit (8, 16, 24, 32, 48, 64, 96, 128px)",
+    "border_radius": "8px (cards), 24px (buttons), 16px (images)",
+    "shadows": {
+      "sm": "0 1px 3px rgba(0,0,0,0.1)",
+      "md": "0 4px 6px rgba(0,0,0,0.1)",
+      "lg": "0 10px 25px rgba(0,0,0,0.15)",
+      "xl": "0 20px 40px rgba(0,0,0,0.2)"
+    },
+    "animations": {
+      "duration": "0.3s ease-in-out",
+      "hover_lift": "translateY(-4px)",
+      "fade_in": "opacity 0.6s ease-in"
+    }
+  },
+
+  "responsive_breakpoints": {
+    "mobile": "320px - 767px",
+    "tablet": "768px - 1023px",
+    "desktop": "1024px - 1439px",
+    "large_desktop": "1440px+"
+  },
+
+  "section_by_section_improvements": {
+    "header_navigation": {
+      "current_issues": [
+        "Basic styling needs enhancement",
+        "No sticky navigation on scroll",
+        "Mobile menu might not be optimized",
+        "CTA button needs more prominence"
+      ],
+      "improvements": {
+        "structure": "Sticky header with blur effect on scroll (backdrop-filter: blur(10px))",
+        "logo": {
+          "position": "Left-aligned",
+          "design": "Combine 'PG' initials with 'Prince Giri' text, or use full text logo",
+          "size": "40px height on desktop, 32px on mobile"
+        },
+        "navigation_menu": {
+          "items": ["Home", "About", "Services", "Strategies", "Testimonials", "Contact"],
+          "style": "Clean, minimal with hover underline animation",
+          "mobile": "Hamburger menu with smooth slide-in drawer from right",
+          "active_state": "Underline or color change for current section"
+        },
+        "cta_button": {
+          "text": "Book Free Consultation",
+          "style": "Primary blue with white text, medium shadow, hover lift effect",
+          "position": "Right side of navigation",
+          "mobile": "Full-width in mobile menu"
+        },
+        "background": "White with subtle shadow on scroll",
+        "height": "80px desktop, 64px mobile"
+      }
+    },
+
+    "hero_section": {
+      "current_issues": [
+        "Layout feels cramped and unbalanced",
+        "Text hierarchy needs improvement",
+        "Stats could be more prominent",
+        "Image treatment is basic",
+        "No clear visual hierarchy"
+      ],
+      "improvements": {
+        "layout": "Two-column grid (60% content, 40% image) on desktop, stacked on mobile",
+        "background": "Gradient from white to light blue (#f0f9ff) or subtle grid pattern",
+        "content_left": {
+          "greeting": {
+            "text": "👋 Hello, I'm Prince Giri",
+            "style": "Small badge with light blue background, medium weight"
+          },
+          "headline": {
+            "text": "Digital Marketing Consultant Who Drives Real Growth",
+            "style": "Large, bold, dark text with 'Real Growth' in gradient or primary color",
+            "max_width": "600px"
+          },
+          "subheadline": {
+            "text": "Transforming businesses through data-driven strategies, creative campaigns, and measurable results. Let's scale your brand together.",
+            "style": "Medium size, secondary text color, line-height 1.7",
+            "max_width": "550px"
+          },
+          "cta_buttons": {
+            "primary": {
+              "text": "Start Growing Today",
+              "style": "Large primary button with icon (arrow or rocket)"
+            },
+            "secondary": {
+              "text": "View My Work",
+              "style": "Ghost button with border, hover fill effect"
+            },
+            "layout": "Horizontal on desktop, stacked on mobile with gap"
+          },
+          "stats_row": {
+            "position": "Below CTAs with top margin",
+            "items": [
+              {
+                "number": "1,400+",
+                "label": "Projects Completed",
+                "icon": "✓ or trophy icon"
+              },
+              {
+                "number": "11+",
+                "label": "Years Experience",
+                "icon": "calendar icon"
+              },
+              {
+                "number": "95%",
+                "label": "Client Satisfaction",
+                "icon": "star icon"
+              }
+            ],
+            "style": "Horizontal cards with subtle borders, numbers in large bold primary color"
+          }
+        },
+        "image_right": {
+          "treatment": "Professional photo with modern border radius, subtle shadow, or floating card effect",
+          "decorative_elements": "Add floating badges (LinkedIn, certification icons) or abstract shapes",
+          "background_shape": "Gradient blob or geometric pattern behind image",
+          "size": "500px max-width on desktop, full-width on mobile"
+        },
+        "scroll_indicator": "Subtle animated arrow or text 'Scroll to explore' at bottom center"
+      }
+    },
+
+    "about_section": {
+      "current_issues": [
+        "Title lacks impact",
+        "Content organization needs improvement",
+        "No visual interest or icons",
+        "Missing personality and storytelling"
+      ],
+      "improvements": {
+        "section_title": {
+          "pre_title": "About Me",
+          "main_title": "Promoting Digital Excellence and Innovation",
+          "style": "Center-aligned with gradient underline or accent line"
+        },
+        "layout": "Two-column on desktop (image + content), single column mobile",
+        "image_side": {
+          "photo": "Professional photo in business attire",
+          "style": "Large border radius with colored border or shadow effect",
+          "decorative": "Add quote bubble or achievement badge overlay"
+        },
+        "content_side": {
+          "introduction": "Engaging paragraph about journey, passion, and approach (150-200 words)",
+          "philosophy_statement": "Highlighted quote or tagline in larger text",
+          "key_points": [
+            {
+              "title": "Data-Driven Strategist",
+              "description": "Combining analytics with creativity for measurable outcomes",
+              "icon": "chart or analytics icon"
+            },
+            {
+              "title": "Full-Stack Marketer",
+              "description": "Expert across SEO, PPC, Social, Content, and Email",
+              "icon": "layers or stack icon"
+            },
+            {
+              "title": "Growth Partner",
+              "description": "Committed to your long-term success with transparent communication",
+              "icon": "handshake or partnership icon"
+            }
+          ],
+          "credentials": "Row of certification badges or client logos"
+        },
+        "background": "White or very light gray with subtle pattern"
+      }
+    },
+
+    "why_hire_section": {
+      "current_issues": [
+        "Cards lack visual hierarchy",
+        "No icons or visual differentiators",
+        "Text-heavy without breathing room",
+        "Layout feels static"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "Why Hire Me As Your Digital Marketing Consultant Or Expert?",
+          "style": "Center-aligned, split into two lines for readability"
+        },
+        "layout": "4-column grid on desktop (2x2), 2 columns on tablet, 1 column on mobile",
+        "card_design": {
+          "structure": "Icon at top, title, description, subtle hover effect",
+          "background": "White cards on light background or gradient cards",
+          "border": "Subtle border or shadow, enhanced on hover",
+          "icon": {
+            "style": "Circular background with primary color, white icon inside",
+            "size": "64px diameter"
+          },
+          "hover_effect": "Lift with increased shadow and slight scale"
+        },
+        "points": [
+          {
+            "icon": "target or bullseye",
+            "title": "Result-Driven Campaigns",
+            "description": "Focus on generating real outcomes: increased traffic, quality leads, and higher sales"
+          },
+          {
+            "icon": "layers or grid",
+            "title": "Expert Multi-Channel Marketing",
+            "description": "Comprehensive strategies across SEO, PPC, Social Media, and Email to maximize growth"
+          },
+          {
+            "icon": "lightbulb + chart",
+            "title": "Creative + Data-Backed Approach",
+            "description": "Blending creativity with analytics to craft campaigns that connect and convert"
+          },
+          {
+            "icon": "handshake or users",
+            "title": "Your Growth Partner",
+            "description": "Dedicated support, clear communication, and long-term success guaranteed"
+          }
+        ],
+        "background": "Light gray or subtle gradient"
+      }
+    },
+
+    "differentiators_section": {
+      "current_issues": [
+        "Title could be more compelling",
+        "Cards look similar to previous section",
+        "Needs unique visual treatment"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "What Makes Me Different From Other Agencies?",
+          "style": "Bold, center-aligned with accent color on key words"
+        },
+        "layout": "Alternating layout (zigzag) on desktop - image/content/image/content",
+        "item_design": {
+          "structure": "Image/illustration on one side, content on other, alternating each row",
+          "image": "Custom illustrations or photos representing each differentiator",
+          "content": {
+            "badge": "Small colored label (e.g., 'ADVANTAGE #1')",
+            "title": "Large, bold title",
+            "description": "Clear, benefit-focused copy",
+            "list": "Checkmark list of specific benefits"
+          }
+        },
+        "points": [
+          {
+            "title": "Personalized Strategy, Not Cookie-Cutter Solutions",
+            "description": "Every business is unique - I craft tailored strategies aligned with your goals"
+          },
+          {
+            "title": "Transparent Reporting & Communication",
+            "description": "Full visibility into campaigns with regular updates and clear metrics"
+          },
+          {
+            "title": "ROI-Focused Approach",
+            "description": "Every dollar spent is optimized for maximum return on investment"
+          },
+          {
+            "title": "Hands-On Expert, Not an Agency Team",
+            "description": "Work directly with me - no juniors or account managers in between"
+          }
+        ],
+        "background": "White with occasional accent color blocks"
+      }
+    },
+
+    "cta_section_mid": {
+      "current_issues": [
+        "Missing from current design",
+        "Need strategic break between sections"
+      ],
+      "improvements": {
+        "design": "Full-width banner with green gradient background",
+        "layout": "Centered content with strong visual hierarchy",
+        "content": {
+          "headline": {
+            "text": "Ready to Grow Your Business?",
+            "style": "Large white text, bold"
+          },
+          "subtext": {
+            "text": "Let's discuss how digital marketing can transform your brand and drive results",
+            "style": "White text with slight transparency"
+          },
+          "button": {
+            "text": "Schedule Free Consultation",
+            "style": "White background, dark text, large size with icon"
+          }
+        },
+        "decorative": "Abstract shapes or pattern in background",
+        "height": "400px desktop, auto mobile"
+      }
+    },
+
+    "services_section": {
+      "current_issues": [
+        "Cards look repetitive",
+        "No visual differentiation between services",
+        "Limited hover interactions",
+        "Text-heavy without visuals"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "Services We Offer",
+          "subtitle": "Comprehensive digital marketing solutions to fuel your growth",
+          "style": "Center-aligned with gradient accent"
+        },
+        "layout": "3-column grid on desktop, 2 on tablet, 1 on mobile",
+        "card_design": {
+          "structure": "Image/illustration at top, icon, title, short description, 'Learn More' link",
+          "background": "White with colored accent bar at top (different color per service)",
+          "image": "Relevant illustration or photo for each service (400x250px)",
+          "hover_effect": "Lift and rotate accent bar expands"
+        },
+        "services": [
+          {
+            "color": "#3b82f6",
+            "icon": "search or magnifying glass",
+            "title": "Search Engine Optimization (SEO)",
+            "description": "Rank higher on Google, attract organic traffic, and bring in customers actively searching for your services",
+            "features": ["Keyword Research", "On-Page Optimization", "Link Building", "Technical SEO"]
+          },
+          {
+            "color": "#10b981",
+            "icon": "click or cursor",
+            "title": "Pay-Per-Click Advertising (PPC)",
+            "description": "Drive instant leads and sales with laser-targeted ads across Google, Facebook, and Instagram",
+            "features": ["Google Ads", "Social Media Ads", "Remarketing", "Campaign Optimization"]
+          },
+          {
+            "color": "#8b5cf6",
+            "icon": "document or file",
+            "title": "Content Marketing",
+            "description": "Build authority and trust with blogs, videos, and posts that educate, inspire, and convert your audience",
+            "features": ["Blog Writing", "Video Content", "Infographics", "Content Strategy"]
+          },
+          {
+            "color": "#ec4899",
+            "icon": "share or network",
+            "title": "Social Media Marketing",
+            "description": "Boost visibility and engagement on Instagram, LinkedIn, and X with creative campaigns that resonate",
+            "features": ["Content Creation", "Community Management", "Influencer Outreach", "Analytics"]
+          },
+          {
+            "color": "#f59e0b",
+            "icon": "mail or envelope",
+            "title": "Email Marketing",
+            "description": "Nurture leads, build loyalty, and increase repeat sales with personalized, automated email campaigns",
+            "features": ["List Building", "Automation", "Newsletter Design", "A/B Testing"]
+          },
+          {
+            "color": "#06b6d4",
+            "icon": "shield or star",
+            "title": "Online Reputation Management",
+            "description": "Protect and enhance your brand's image, manage reviews, and build strong customer trust online",
+            "features": ["Review Management", "Brand Monitoring", "Crisis Management", "Reputation Building"]
+          }
+        ],
+        "background": "Light gray gradient"
+      }
+    },
+
+    "marketing_strategies_section": {
+      "current_issues": [
+        "Section title is repetitive with services",
+        "Cards are too similar",
+        "Lacks visual variety",
+        "Multiple strategy blocks look cluttered"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "6 Top Digital Marketing Strategies",
+          "subtitle": "Proven approaches that drive measurable business growth",
+          "style": "Left-aligned with blue accent line"
+        },
+        "layout": "Timeline or stepped layout showing progression",
+        "strategy_design": {
+          "structure": "Number badge + icon + title + description + key benefits",
+          "visual": "Each strategy has unique gradient background or color theme",
+          "number": "Large stylized number (01, 02, etc.) as background element",
+          "animation": "Fade in on scroll with stagger effect"
+        },
+        "strategies": [
+          {
+            "number": "01",
+            "gradient": "blue to cyan",
+            "icon": "search",
+            "title": "Search Engine Optimization (SEO)",
+            "description": "Rank higher on Google, attract more organic traffic, and bring in customers searching for your services",
+            "benefits": ["Increased organic visibility", "Higher quality traffic", "Long-term ROI"]
+          },
+          {
+            "number": "02",
+            "gradient": "green to emerald",
+            "icon": "click",
+            "title": "Pay-Per-Click Advertising (PPC)",
+            "description": "Drive instant leads & sales with laser-targeted ads across Google, Facebook, and Instagram",
+            "benefits": ["Immediate results", "Precise targeting", "Scalable campaigns"]
+          },
+          {
+            "number": "03",
+            "gradient": "purple to pink",
+            "icon": "document",
+            "title": "Content Marketing",
+            "description": "Build authority & trust with blogs, videos, and posts that educate, inspire, and convert your audience",
+            "benefits": ["Brand authority", "Audience engagement", "SEO benefits"]
+          },
+          {
+            "number": "04",
+            "gradient": "orange to red",
+            "icon": "share",
+            "title": "Social Media Marketing",
+            "description": "Boost visibility & engagement on platforms like Instagram, LinkedIn, and X with creative campaigns",
+            "benefits": ["Brand awareness", "Community building", "Customer engagement"]
+          },
+          {
+            "number": "05",
+            "gradient": "amber to orange",
+            "icon": "mail",
+            "title": "Email Marketing",
+            "description": "Nurture leads, build loyalty, and increase repeat sales with personalized, automated email campaigns",
+            "benefits": ["Direct communication", "High ROI", "Customer retention"]
+          },
+          {
+            "number": "06",
+            "gradient": "cyan to blue",
+            "icon": "shield",
+            "title": "ORM Services",
+            "description": "Protect & enhance your brand's image, manage reviews, and build strong customer trust online",
+            "benefits": ["Brand protection", "Trust building", "Review management"]
+          }
+        ],
+        "layout_style": "Bento box grid or masonry layout for visual interest",
+        "background": "White with subtle geometric pattern"
+      }
+    },
+
+    "testimonials_section": {
+      "current_issues": [
+        "Standard testimonial layout",
+        "Lacks credibility indicators",
+        "No client logos or photos",
+        "Static presentation"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "What Clients Say About Working With Me",
+          "subtitle": "Real results from real businesses",
+          "style": "Center-aligned"
+        },
+        "layout": "Carousel or 3-column grid with pagination",
+        "testimonial_card": {
+          "structure": "Quote icon + testimonial text + rating stars + client info + photo + company logo",
+          "design": {
+            "background": "White card with subtle shadow",
+            "quote_icon": "Large decorative quotation mark in primary color",
+            "rating": "5-star display in gold/yellow",
+            "text": "Larger, italic font for testimonial quote",
+            "client_info": {
+              "photo": "Circular client photo (64px)",
+              "name": "Bold text",
+              "title_company": "Secondary text with company logo next to it"
+            }
+          }
+        },
+        "features": {
+          "carousel": "Auto-play with manual controls, smooth transitions",
+          "navigation": "Dot indicators at bottom, arrow buttons on sides",
+          "hover": "Pause auto-play on hover"
+        },
+        "testimonial_examples": [
+          {
+            "quote": "Prince transformed our digital presence completely. Our organic traffic increased by 250% in just 6 months, and we're now ranking #1 for our top keywords.",
+            "rating": 5,
+            "client": "Sarah Johnson",
+            "position": "CEO, TechStart Inc.",
+            "photo_placeholder": "Professional headshot",
+            "company_logo": "Company logo"
+          },
+          {
+            "quote": "Working with Prince was a game-changer. His PPC campaigns delivered a 320% ROI in the first quarter. He's not just a consultant - he's a true growth partner.",
+            "rating": 5,
+            "client": "Michael Chen",
+            "position": "Marketing Director, GrowthCo",
+            "photo_placeholder": "Professional headshot",
+            "company_logo": "Company logo"
+          },
+          {
+            "quote": "Prince's content strategy helped us establish thought leadership in our industry. Our engagement rates tripled, and we're now seen as the go-to resource.",
+            "rating": 5,
+            "client": "Emily Rodriguez",
+            "position": "Founder, ContentHub",
+            "photo_placeholder": "Professional headshot",
+            "company_logo": "Company logo"
+          }
+        ],
+        "trust_indicators": "Row of client logos below testimonials",
+        "background": "Light blue gradient"
+      }
+    },
+
+    "case_studies_portfolio_section": {
+      "current_issues": [
+        "Missing from current design",
+        "No proof of work shown"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "Success Stories & Results",
+          "subtitle": "Real campaigns, real impact, real growth",
+          "style": "Center-aligned with gradient"
+        },
+        "layout": "Featured case study carousel or 3-card grid",
+        "case_study_card": {
+          "structure": "Image + client logo + challenge + solution + results metrics + CTA",
+          "design": {
+            "image": "Before/after screenshot or campaign visual (600x400px)",
+            "overlay": "Gradient overlay with white text",
+            "metrics": "Large numbers with icons showing key results",
+            "button": "View full case study (opens modal or new page)"
+          }
+        },
+        "example_case_studies": [
+          {
+            "client": "E-commerce Brand",
+            "challenge": "Low organic traffic and poor conversion rates",
+            "solution": "Comprehensive SEO + PPC strategy",
+            "results": [
+              {"metric": "+250%", "label": "Organic Traffic"},
+              {"metric": "+180%", "label": "Conversions"},
+              {"metric": "320%", "label": "ROI"}
+            ],
+            "image": "Dashboard screenshot or graph"
+          },
+          {
+            "client": "SaaS Startup",
+            "challenge": "Need to generate qualified B2B leads",
+            "solution": "LinkedIn + Content Marketing",
+            "results": [
+              {"metric": "500+", "label": "Quality Leads"},
+              {"metric": "+400%", "label": "Engagement"},
+              {"metric": "$2M", "label": "Pipeline Value"}
+            ],
+            "image": "LinkedIn campaign visual"
+          },
+          {
+            "client": "Local Service Business",
+            "challenge": "Competing with national chains",
+            "solution": "Local SEO + Google Ads",
+            "results": [
+              {"metric": "#1", "label": "Local Rankings"},
+              {"metric": "+300%", "label": "Calls"},
+              {"metric": "45%", "label": "Cost Reduction"}
+            ],
+            "image": "Google My Business screenshot"
+          }
+        ],
+        "background": "White with subtle pattern"
+      }
+    },
+
+    "process_methodology_section": {
+      "current_issues": [
+        "Missing from current design",
+        "No transparency on how you work"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "My Proven Process",
+          "subtitle": "A systematic approach to delivering exceptional results",
+          "style": "Center-aligned"
+        },
+        "layout": "Horizontal timeline on desktop, vertical on mobile",
+        "step_design": {
+          "structure": "Step number + icon + title + description + deliverables",
+          "visual": "Connected by line or arrow showing flow",
+          "icon": "Circular badge with step number and icon",
+          "card": "White background with colored accent border on left"
+        },
+        "steps": [
+          {
+            "step": "01",
+            "icon": "search or magnifying glass",
+            "title": "Discovery & Audit",
+            "description": "Deep dive into your business, audience, competitors, and current marketing performance",
+            "deliverables": ["Market research", "Competitor analysis", "Marketing audit"]
+          },
+          {
+            "step": "02",
+            "icon": "lightbulb or strategy",
+            "title": "Strategy Development",
+            "description": "Create a customized roadmap with clear goals, KPIs, and tactical recommendations",
+            "deliverables": ["Strategic roadmap", "KPI framework", "Budget allocation"]
+          },
+          {
+            "step": "03",
+            "icon": "rocket or launch",
+            "title": "Implementation",
+            "description": "Execute campaigns across chosen channels with precision and attention to detail",
+            "deliverables": ["Campaign setup", "Content creation", "Technical implementation"]
+          },
+          {
+            "step": "04",
+            "icon": "chart or analytics",
+            "title": "Optimization & Reporting",
+            "description": "Continuously monitor, test, and refine campaigns based on data insights",
+            "deliverables": ["Weekly reports", "A/B testing", "Performance optimization"]
+          },
+          {
+            "step": "05",
+            "icon": "growth or trending up",
+            "title": "Scale & Grow",
+            "description": "Expand winning strategies and explore new opportunities for accelerated growth",
+            "deliverables": ["Scaling strategy", "New channel testing", "ROI maximization"]
+          }
+        ],
+        "background": "Light gray with white cards"
+      }
+    },
+
+    "cta_section_final": {
+      "current_issues": [
+        "Basic green section needs enhancement",
+        "Limited visual appeal",
+        "Lacks urgency or value proposition"
+      ],
+      "improvements": {
+        "design": "Full-width section with vibrant gradient (blue to green or purple to pink)",
+        "layout": "Split layout - content on left (60%), image on right (40%)",
+        "content_left": {
+          "badge": {
+            "text": "🚀 Let's Get Started",
+            "style": "Small white badge with subtle transparency"
+          },
+          "headline": {
+            "text": "Ready to Grow Your Business?",
+            "style": "Large white text, bold, line-height 1.2"
+          },
+          "subheadline": {
+            "text": "Schedule a free 30-minute consultation to discuss your goals and discover how I can help you achieve them.",
+            "style": "White text with slight transparency, medium size"
+          },
+          "benefits": [
+            {"icon": "checkmark", "text": "Free 30-minute strategy session"},
+            {"icon": "checkmark", "text": "Customized growth recommendations"},
+            {"icon": "checkmark", "text": "No obligation, just valuable insights"}
+          ],
+          "button": {
+            "text": "Book Your Free Consultation",
+            "style": "Large white button with dark text, shadow, icon"
+          },
+          "secondary_text": {
+            "text": "Or email me at: prince@email.com",
+            "style": "Small white text with transparency"
+          }
+        },
+        "image_right": {
+          "content": "Professional photo of Prince Giri looking confident",
+          "style": "Modern border radius with white border or floating card effect",
+          "decorative": "Floating elements like stars, or achievement badges"
+        },
+        "background": "Gradient with abstract shapes or pattern",
+        "height": "600px desktop, auto mobile"
+      }
+    },
+
+    "blog_insights_section": {
+      "current_issues": [
+        "Missing from current design"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "Latest Insights & Articles",
+          "subtitle": "Digital marketing tips, trends, and strategies",
+          "style": "Left-aligned"
+        },
+        "layout": "3-column grid on desktop, 2 on tablet, 1 on mobile",
+        "article_card": {
+          "structure": "Featured image + category badge + title + excerpt + read time + author + date + arrow link",
+          "design": {
+            "image": "16:9 aspect ratio with gradient overlay",
+            "category": "Small colored badge (e.g., 'SEO', 'PPC', 'Content')",
+            "title": "Bold, 2-line max with ellipsis",
+            "excerpt": "2-3 lines with fade",
+            "meta": "Small text with icons for read time, date",
+            "hover": "Image slight zoom, card lift"
+          }
+        },
+        "example_articles": [
+          {
+            "category": "SEO",
+            "title": "10 SEO Trends You Can't Ignore in 2025",
+            "excerpt": "Stay ahead of the curve with these emerging SEO strategies that are reshaping search engine optimization.",
+            "read_time": "5 min read",
+            "date": "Mar 15, 2025"
+          },
+          {
+            "category": "PPC",
+            "title": "How to Reduce PPC Costs While Increasing Conversions",
+            "excerpt": "Learn the exact tactics I use to optimize ad spend and maximize ROI for my clients.",
+            "read_time": "7 min read",
+            "date": "Mar 10, 2025"
+          },
+          {
+            "category": "Strategy",
+            "title": "The Complete Guide to Building a Marketing Funnel",
+            "excerpt": "A step-by-step framework for creating high-converting marketing funnels that drive results.",
+            "read_time": "10 min read",
+            "date": "Mar 5, 2025"
+          }
+        ],
+        "button": {
+          "text": "View All Articles",
+          "style": "Ghost button, center-aligned below cards"
+        },
+        "background": "White"
+      }
+    },
+
+    "faq_section": {
+      "current_issues": [
+        "Missing from current design"
+      ],
+      "improvements": {
+        "section_title": {
+          "text": "Frequently Asked Questions",
+          "subtitle": "Everything you need to know about working with me",
+          "style": "Center-aligned"
+        },
+        "layout": "Single column accordion, max-width 800px, centered",
+        "accordion_design": {
+          "structure": "Question + expand icon → Answer (hidden until clicked)",
+          "styling": {
+            "question": "Bold text with plus/minus icon on right",
+            "answer": "Regular text with padding, smooth expand animation",
+            "divider": "Subtle border between items"
+          },
+          "hover": "Background color change on question hover"
+        },
+        "faqs": [
+          {
+            "question": "How long does it take to see results from digital marketing?",
+            "answer": "Timeline varies by strategy. PPC can show results within days, while SEO typically takes 3-6 months. I provide realistic timelines during our consultation and share quick wins alongside long-term strategies."
+          },
+          {
+            "question": "Do you work with businesses in my industry?",
+            "answer": "I've worked across 15+ industries including e-commerce, SaaS, healthcare, real estate, and professional services. My data-driven approach adapts to any industry's unique challenges and opportunities."
+          },
+          {
+            "question": "What's included in your services?",
+            "answer": "Each engagement is customized, but typically includes strategy development, campaign implementation, ongoing optimization, weekly/monthly reporting, and direct access to me for questions and updates."
+          },
+          {
+            "question": "What's your pricing structure?",
+            "answer": "Pricing depends on scope, channels, and goals. I offer project-based, retainer, and performance-based models. During our free consultation, I'll provide a transparent proposal tailored to your budget and objectives."
+          },
+          {
+            "question": "How do you measure success?",
+            "answer": "Success metrics are defined together based on your goals - whether that's leads, sales, traffic, rankings, or ROI. I provide detailed reports with clear KPIs and explain what the numbers mean for your business."
+          },
+          {
+            "question": "Do I need a large budget to get started?",
+            "answer": "Not necessarily. I work with businesses of all sizes and can create strategies that fit your budget while delivering meaningful results. We'll prioritize high-impact tactics that make the most of your investment."
+          },
+          {
+            "question": "Will I work directly with you or a team?",
+            "answer": "You work directly with me - no account managers or junior staff. You get my expertise, attention, and commitment throughout the entire engagement."
+          },
+          {
+            "question": "What makes you different from agencies?",
+            "answer": "As an independent consultant, you get personalized attention, direct communication, and strategies tailored specifically for your business - not cookie-cutter templates. Plus, you're working with an expert, not a rotating team."
+          }
+        ],
+        "background": "Light gray"
+      }
+    },
+
+    "footer": {
+      "current_issues": [
+        "Basic footer design",
+        "Missing social proof elements",
+        "No personality or visual interest",
+        "Limited navigation options"
+      ],
+      "improvements": {
+        "design": "Multi-section footer with professional photo integration",
+        "layout": "4-column grid on desktop, stacked on mobile",
+        "background": "Dark gradient (navy to dark blue) with subtle pattern",
+        "text_color": "White and light gray",
+        "columns": {
+          "column_1_about": {
+            "content": [
+              {
+                "type": "profile_section",
+                "elements": [
+                  {
+                    "image": "Circular professional photo of Prince Giri (120px diameter)",
+                    "style": "White border, subtle shadow, centered"
+                  },
+                  {
+                    "name": "Prince Giri",
+                    "style": "Large white text, bold, center-aligned"
+                  },
+                  {
+                    "tagline": "Digital Marketing Consultant",
+                    "style": "Light gray text, center-aligned"
+                  },
+                  {
+                    "bio": "Helping businesses grow through data-driven digital marketing strategies.",
+                    "style": "Small light gray text, max-width 250px"
+                  }
+                ]
+              },
+              {
+                "type": "social_links",
+                "platforms": [
+                  {"icon": "LinkedIn", "url": "#", "color": "#0077b5"},
+                  {"icon": "Twitter/X", "url": "#", "color": "#1da1f2"},
+                  {"icon": "Instagram", "url": "#", "color": "#e4405f"},
+                  {"icon": "Facebook", "url": "#", "color": "#1877f2"}
+                ],
+                "style": "Horizontal row of icon buttons with hover effects"
+              }
+            ]
+          },
+          "column_2_quick_links": {
+            "title": "Quick Links",
+            "links": [
+              {"text": "Home", "url": "#home"},
+              {"text": "About Me", "url": "#about"},
+              {"text": "Services", "url": "#services"},
+              {"text": "Case Studies", "url": "#case-studies"},
+              {"text": "Blog", "url": "#blog"},
+              {"text": "Contact", "url": "#contact"}
+            ],
+            "style": "Vertical list with hover underline animation"
+          },
+          "column_3_services": {
+            "title": "Services",
+            "links": [
+              {"text": "SEO Services", "url": "#seo"},
+              {"text": "PPC Advertising", "url": "#ppc"},
+              {"text": "Content Marketing", "url": "#content"},
+              {"text": "Social Media Marketing", "url": "#social"},
+              {"text": "Email Marketing", "url": "#email"},
+              {"text": "ORM Services", "url": "#orm"}
+            ],
+            "style": "Vertical list with hover underline animation"
+          },
+          "column_4_contact": {
+            "title": "Get In Touch",
+            "items": [
+              {
+                "icon": "mail",
+                "text": "prince@email.com",
+                "link": "mailto:prince@email.com"
+              },
+              {
+                "icon": "phone",
+                "text": "+91 XXXXX XXXXX",
+                "link": "tel:+91XXXXXXXXXX"
+              },
+              {
+                "icon": "location",
+                "text": "Ludhiana, Punjab, India",
+                "link": null
+              }
+            ],
+            "newsletter": {
+              "title": "Newsletter",
+              "description": "Get marketing tips & updates",
+              "form": {
+                "input_placeholder": "Enter your email",
+                "button_text": "Subscribe",
+                "style": "Horizontal input + button combination with rounded corners"
+              }
+            }
+          }
+        },
+        "bottom_bar": {
+          "layout": "Horizontal split - copyright left, links right",
+          "background": "Slightly darker than main footer",
+          "border_top": "Subtle border",
+          "content_left": {
+            "text": "© 2025 Prince Giri. All rights reserved.",
+            "style": "Small light gray text"
+          },
+          "content_right": {
+            "links": [
+              {"text": "Privacy Policy", "url": "#privacy"},
+              {"text": "Terms of Service", "url": "#terms"},
+              {"text": "Sitemap", "url": "#sitemap"}
+            ],
+            "style": "Horizontal list with dividers, small text"
+          }
+        },
+        "decorative_elements": [
+          "Abstract shapes or dots pattern in background",
+          "Subtle gradient overlay",
+          "RG Startup logo badge (from image 4) in bottom corner"
+        ]
+      }
+    }
+  },
+
+  "mobile_responsiveness_requirements": {
+    "general_principles": [
+      "Mobile-first approach with progressive enhancement",
+      "Touch-friendly targets (minimum 44x44px for buttons)",
+      "Readable font sizes (minimum 16px for body text)",
+      "Optimized images with proper compression",
+      "Fast load times (target under 3 seconds)",
+      "No horizontal scrolling",
+      "Thumb-friendly navigation zones"
+    ],
+    "breakpoint_specific_adjustments": {
+      "mobile_320_767": {
+        "navigation": "Hamburger menu with full-screen overlay",
+        "hero": "Stacked layout, image below text, reduced stats to 2 columns",
+        "sections": "All multi-column layouts become single column",
+        "cards": "Full-width with adequate padding",
+        "typography": "Reduced heading sizes (h1: 2rem, h2: 1.75rem)",
+        "spacing": "Reduced vertical padding (64px → 48px)",
+        "buttons": "Full-width or stacked CTAs",
+        "images": "Full-width with proper aspect ratios",
+        "footer": "Stacked columns, centered content"
+      },
+      "tablet_768_1023": {
+        "navigation": "Condensed menu or hamburger based on items",
+        "hero": "Maintain two-column but adjust proportions (50/50)",
+        "sections": "2-column layouts where appropriate",
+        "cards": "2-column grid for services/testimonials",
+        "typography": "Slightly reduced from desktop",
+        "spacing": "Medium vertical padding (80px)",
+        "footer": "2-column layout"
+      }
+    },
+    "performance_optimization": [
+      "Lazy loading for images below fold",
+      "WebP format with fallbacks",
+      "Minified CSS and JavaScript",
+      "Critical CSS inlined",
+      "Font loading optimization",
+      "Reduced animation complexity on mobile"
+    ]
+  },
+
+  "accessibility_requirements": {
+    "critical_standards": [
+      "WCAG 2.1 Level AA compliance",
+      "Semantic HTML structure (header, nav, main, section, article, footer)",
+      "Proper heading hierarchy (h1 → h2 → h3, no skipping)",
+      "Alt text for all images",
+      "Sufficient color contrast (4.5:1 for normal text, 3:1 for large text)",
+      "Keyboard navigation support",
+      "Focus indicators on interactive elements",
+      "ARIA labels where needed",
+      "Skip navigation link",
+      "Responsive text sizing (no fixed pixel sizes for body text)"
+    ]
+  },
+
+  "performance_best_practices": {
+    "loading_optimization": [
+      "Above-the-fold content prioritized",
+      "Lazy loading for below-fold images",
+      "Defer non-critical JavaScript",
+      "Preload critical fonts",
+      "Optimize image sizes (use srcset for responsive images)",
+      "Enable browser caching"
+    ],
+    "animation_performance": [
+      "Use CSS transforms instead of position changes",
+      "Use will-change sparingly",
+      "RequestAnimationFrame for JS animations",
+      "Reduce animation on mobile devices",
+      "Respect prefers-reduced-motion"
+    ]
+  },
+
+  "seo_technical_requirements": {
+    "on_page_seo": [
+      "Unique, descriptive title tag (50-60 characters)",
+      "Compelling meta description (150-160 characters)",
+      "Semantic heading structure",
+      "Schema.org markup (Person, ProfessionalService, Review)",
+      "Open Graph tags for social sharing",
+      "Canonical URLs",
+      "XML sitemap",
+      "Robots.txt"
+    ],
+    "suggested_metadata": {
+      "title": "Prince Giri - Digital Marketing Consultant | SEO, PPC & Growth Expert",
+      "description": "Results-driven digital marketing consultant specializing in SEO, PPC, and multi-channel strategies. 11+ years experience, 1400+ projects. Let's grow your business.",
+      "keywords": "digital marketing consultant, SEO expert, PPC specialist, growth marketing, online marketing services"
+    }
+  },
+
+  "conversion_optimization": {
+    "cta_strategy": [
+      "Primary CTA in hero section",
+      "Secondary CTAs throughout page (every 2-3 sections)",
+      "Sticky floating CTA button on mobile",
+      "Exit-intent popup with lead magnet (optional)",
+      "Multiple contact points (email, phone, form)",
+      "Calendar booking integration for consultations"
+    ],
+    "trust_signals": [
+      "Client testimonials prominently displayed",
+      "Client logos and case studies",
+      "Years of experience and project count",
+      "Certifications and badges",
+      "Social proof (LinkedIn connections, followers)",
+      "Awards or recognitions",
+      "Media mentions (if applicable)"
+    ],
+    "form_optimization": [
+      "Minimal form fields (name, email, phone, message)",
+      "Clear privacy statement",
+      "Visible submit button with action-oriented text",
+      "Thank you page or confirmation message",
+      "Email autoresponder confirmation"
+    ]
+  },
+
+  "interactive_elements": {
+    "micro_interactions": [
+      "Button hover effects (lift, color change, shadow)",
+      "Card hover animations (lift, border glow)",
+      "Smooth scroll to section on navigation click",
+      "Loading states for forms and buttons",
+      "Success/error message animations",
+      "Cursor change on interactive elements",
+      "Image zoom on hover (portfolio items)"
+    ],
+    "scroll_animations": [
+      "Fade in on scroll for sections",
+      "Stagger animation for card grids",
+      "Number counter animation for stats",
+      "Progress bar for testimonial carousel",
+      "Parallax effect for hero section (subtle)",
+      "Sticky header activation on scroll"
+    ]
+  },
+
+  "ai_implementation_instructions": {
+    "development_approach": [
+      "Build using React components for modularity and reusability",
+      "Use Tailwind CSS for styling (utility-first approach)",
+      "Implement responsive design with mobile-first methodology",
+      "Create reusable component library (Button, Card, Section, etc.)",
+      "Use React hooks for state management (useState for simple state)",
+      "Implement scroll animations with Intersection Observer API",
+      "Use lucide-react for icons throughout",
+      "Ensure all images use your provided photos (professional shots)"
+    ],
+    "component_structure": [
+      "Header - Sticky navigation with mobile menu",
+      "HeroSection - Two-column layout with stats",
+      "AboutSection - Image + content layout",
+      "WhyHireSection - 4-card grid",
+      "DifferentiatorsSection - Alternating layout",
+      "CTASection - Mid-page conversion point",
+      "ServicesSection - 6-card grid with icons",
+      "StrategiesSection - Timeline or numbered layout",
+      "TestimonialsSection - Carousel component",
+      "CaseStudiesSection - Featured cards",
+      "ProcessSection - Step-by-step timeline",
+      "FinalCTASection - Split layout with image",
+      "BlogSection - 3-column article grid",
+      "FAQSection - Accordion component",
+      "Footer - Multi-column with profile photo"
+    ],
+    "color_implementation": {
+      "primary_blue": "Use for buttons, links, accents",
+      "success_green": "Use for CTAs, success states",
+      "accent_orange": "Use sparingly for highlights",
+      "gradients": "Use for hero background, CTA sections, service cards"
+    },
+    "spacing_system": "Apply consistent spacing using Tailwind's spacing scale",
+    "animation_timing": "Use transition-all duration-300 ease-in-out as default"
+  },
+
+  "content_guidelines": {
+    "tone_of_voice": [
+      "Professional yet approachable",
+      "Confident without being arrogant",
+      "Results-focused and data-driven",
+      "Clear and jargon-free",
+      "Action-oriented with strong CTAs"
+    ],
+    "writing_principles": [
+      "Lead with benefits, not features",
+      "Use specific numbers and metrics",
+      "Address pain points directly",
+      "Include social proof throughout",
+      "Create urgency without pressure",
+      "Be transparent and honest",
+      "Show personality and authenticity"
+    ]
+  },
+
+  "testing_checklist": {
+    "functional_testing": [
+      "All navigation links work correctly",
+      "Forms submit and validate properly",
+      "Buttons and CTAs are clickable",
+      "Carousel/slider controls function",
+      "Accordion expands/collapses smoothly",
+      "Modal/popup opens and closes",
+      "Mobile menu opens and closes"
+    ],
+    "responsive_testing": [
+      "Test on iPhone (375px, 414px)",
+      "Test on Android (360px, 412px)",
+      "Test on iPad (768px, 1024px)",
+      "Test on desktop (1366px, 1920px)",
+      "Check landscape orientation",
+      "Verify no horizontal scroll",
+      "Test touch targets on mobile"
+    ],
+    "cross_browser_testing": [
+      "Chrome (latest)",
+      "Firefox (latest)",
+      "Safari (latest)",
+      "Edge (latest)",
+      "Mobile Safari",
+      "Mobile Chrome"
+    ],
+    "performance_testing": [
+      "Page load time under 3 seconds",
+      "Lighthouse score above 90",
+      "Images optimized and compressed",
+      "No layout shift (CLS score)",
+      "Smooth 60fps animations"
+    ]
+  },
+
+  "priority_fixes_current_design": [
+    {
+      "priority": "CRITICAL",
+      "issue": "Header lacks sticky behavior and modern styling",
+      "fix": "Implement sticky header with backdrop blur and shadow on scroll"
+    },
+    {
+      "priority": "CRITICAL",
+      "issue": "Hero section feels cramped with poor hierarchy",
+      "fix": "Redesign with clear two-column layout, larger typography, and prominent stats"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "No mid-page CTAs - losing conversion opportunities",
+      "fix": "Add strategic CTA sections after services and testimonials"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Service cards lack visual differentiation",
+      "fix": "Add unique colored accents, icons, and hover effects to each card"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Testimonials appear static and lack credibility indicators",
+      "fix": "Implement carousel with client photos, ratings, and company logos"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Multiple strategy sections feel repetitive",
+      "fix": "Consolidate into single section with unique visual treatment (timeline or numbered cards)"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Footer lacks personality and professional photo integration",
+      "fix": "Redesign with multi-column layout, include profile photo, and enhanced social links"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Missing case studies and proof of results",
+      "fix": "Create dedicated case study section with metrics and visuals"
+    },
+    {
+      "priority": "LOW",
+      "issue": "No FAQ section to address common objections",
+      "fix": "Add accordion-style FAQ section before final CTA"
+    },
+    {
+      "priority": "LOW",
+      "issue": "Missing blog/insights section",
+      "fix": "Add latest articles section to demonstrate expertise"
+    }
+  ],
+
+  "final_notes_for_ai": {
+    "critical_reminders": [
+      "NEVER use localStorage or sessionStorage - use React state only",
+      "Use only provided professional photos from user",
+      "Implement all sections in single artifact (complete page)",
+      "Ensure mobile responsiveness is perfect",
+      "Use Tailwind CSS utility classes only (no custom CSS compilation)",
+      "Include smooth scroll behavior and animations",
+      "Make all interactive elements keyboard accessible",
+      "Add proper semantic HTML structure",
+      "Include meta tags and SEO optimization",
+      "Test all CTAs and ensure they stand out",
+      "Maintain consistent spacing throughout",
+      "Use proper color contrast for accessibility",
+      "Include the RG Startup logo (from image 4) in footer",
+      "Ensure fast load times with optimized images",
+      "Create a cohesive, professional brand experience"
+    ],
+    "success_criteria": [
+      "Website looks modern and professional",
+      "Clear visual hierarchy guides user attention",
+      "Strong CTAs drive conversions",
+      "Mobile experience is flawless",
+      "Page loads quickly and smoothly",
+      "Animations enhance without distracting",
+      "Content is scannable and engaging",
+      "Trust signals are prominent",
+      "Navigation is intuitive",
+      "Overall design reflects expertise and credibility"
+    ]
+  }
+}
