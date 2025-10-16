@@ -48,7 +48,7 @@ export function WhyHireMe() {
               key={index}
               className="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-all group"
             >
-              <div className="bg-blue-50 w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
+              <div className="bg-blue-50 w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors ">
                 <item.icon className="text-blue-600" size={32} />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
@@ -66,7 +66,7 @@ export function WhyHireMe() {
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 items-center">
             <div className="order-1 lg:order-none">
               <img
-                src="/profile.png"
+                src="/see.png"
                 alt="Prince Giri"
                 // className="max-w-md border-0 border-gray-300 relative rounded-xl shadow-[0_0_15px_rgba(255,255,255,0.6)] "
                 className="w-full max-w-full sm:max-w-full md:max-w-full h-auto border-0 border-gray-300 relative rounded-xl mx-auto"

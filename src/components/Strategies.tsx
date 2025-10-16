@@ -10,51 +10,75 @@ import {
 const items = [
   {
     num: "01",
-    title: "SEO",
+    title: "Organic Growth Strategy",
     icon: Search,
-    benefits: ["Organic visibility", "Quality traffic", "Long-term ROI"],
-    gradient: "from-blue-500 to-cyan-500",
+    benefits: [
+      "Sustain Visib.",
+      "Quality Traffic",
+      "Long-term ROI",
+    ],
+    gradient: "from-blue-600 to-cyan-500",
   },
   {
     num: "02",
-    title: "PPC",
+    title: "Instant Lead Generation",
     icon: Click,
-    benefits: ["Immediate results", "Precise targeting", "Scalable"],
-    gradient: "from-emerald-500 to-green-500",
+    benefits: [
+      "Immediate Leads",
+      "Precise Target",
+      "Campaign Scale",
+    ],
+    gradient: "from-emerald-600 to-green-500",
   },
   {
     num: "03",
-    title: "Content",
+    title: "Thought Leadership & Value",
     icon: Document,
-    benefits: ["Brand authority", "Engagement", "SEO benefits"],
-    gradient: "from-purple-500 to-pink-500",
+    benefits: [
+      "Brand Authority",
+      "Deep Engagement",
+      "Attract Traffic",
+    ],
+    gradient: "from-fuchsia-600 to-pink-500",
   },
   {
     num: "04",
-    title: "Social Media",
+    title: "Audience Connection",
     icon: Share,
-    benefits: ["Brand awareness", "Community", "Engagement"],
-    gradient: "from-orange-500 to-red-500",
+    benefits: [
+      "Expand Brand",
+      "Build Community",
+      "Active Interact.",
+    ],
+    gradient: "from-red-500 to-orange-500",
   },
   {
     num: "05",
-    title: "Email",
+    title: "Customer Nurturing",
     icon: Mail,
-    benefits: ["Direct communication", "High ROI", "Retention"],
-    gradient: "from-amber-500 to-orange-500",
+    benefits: [
+      "Direct Comm.",
+      "High Campaign ROI",
+      "Boost Retention",
+    ],
+    gradient: "from-yellow-500 to-amber-500",
   },
   {
     num: "06",
-    title: "ORM",
+    title: "Brand Trust & Security",
     icon: Shield,
-    benefits: ["Brand protection", "Trust", "Review management"],
-    gradient: "from-cyan-500 to-blue-500",
+    benefits: [
+      "Protect Brand",
+      "Build Trust",
+      "Manage Reviews",
+    ],
+    gradient: "from-sky-500 to-blue-600",
   },
 ];
 
 export function Strategies() {
   return (
-    <section className="py-24 bg-white" >
+    <section className="py-24 bg-white" id="strategies">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-text-primary">

@@ -14,9 +14,9 @@ export function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-blue-500/10 rounded-3xl"></div>
               <img
-                src="/stand.png"
+                src="/see.png"
                 alt="Prince Giri - Digital Marketing Expert"
-                className="rounded-3xl shadow-2xl w-full transform group-hover:scale-[1.02] transition-transform duration-500"
+                className="rounded-3xl shadow-2xl h-[80%] w-full cover transform group-hover:scale-[1.02] transition-transform duration-500 "
               />
 
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6 border border-slate-100">

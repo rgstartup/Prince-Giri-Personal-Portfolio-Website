@@ -15,7 +15,7 @@ export function Hero() {
 
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-[size:32px_32px] sm:bg-[size:64px_64px] bg-slate-100"></div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-12 lg:py-20 md:py-16 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16 sm:py-12 lg:py-20 md:py-16 relative z-10">
         <div className="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-3 space-y-6 sm:space-y-8 animate-slide-up">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-full px-3 sm:px-4 py-2">
@@ -144,12 +144,13 @@ export function Hero() {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="absolute  md:bottom-0  bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="flex flex-col items-center gap-1 sm:gap-2 text-text-secondary">
-            <span className="text-xs sm:text-sm font-medium">Scroll to explore</span>
-            <ArrowRight size={16} className="rotate-90 sm:w-5 sm:h-5" />
-          </div>
+      {/* Scroll to explore - positioned outside container for perfect centering */}
+      <div className="absolute bottom-2 sm:bottom-4 md:bottom-6 left-0 right-0 flex justify-center items-center animate-bounce z-20">
+        <div className="flex flex-col items-center gap-1 sm:gap-2 text-text-secondary">
+          <span className="text-xs sm:text-sm font-medium">Scroll to explore</span>
+          <ArrowRight size={16} className="rotate-90 sm:w-5 sm:h-5" />
         </div>
       </div>
     </section>

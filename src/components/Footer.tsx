@@ -65,8 +65,8 @@ export function Footer() {
                 <Mail className="text-blue-400 mt-1 flex-shrink-0" size={20} />
                 <div>
                   <p className="text-slate-400 text-sm">Email</p>
-                  <a href="mailto:prince@example.com" className="text-white hover:text-blue-400 transition-colors">
-                    prince@example.com
+                  <a href="mailto:princegiriseo@gmail.com" className="text-white hover:text-blue-400 transition-colors">
+                    princegiriseo@gmail.com
                   </a>
                 </div>
               </li>
@@ -128,7 +128,7 @@ export function Footer() {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-4 bg-white/5 rounded-full px-8 py-4">
             <img
-              src="/profile.png"
+              src="/stand.png"
               alt="Prince Giri"
               className="w-12 h-12 rounded-full object-cover"
             />

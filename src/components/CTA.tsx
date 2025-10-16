@@ -16,10 +16,10 @@ export function CTA() {
               ))}
             </ul>
             <a href="#contact" className="mt-6 inline-flex items-center justify-center bg-white text-text-primary px-6 py-4 rounded-btn font-semibold shadow-lgx">Book Your Free Consultation</a>
-            <p className="mt-3 text-white/80 text-sm">Or email: prince@email.com</p>
+            <p className="mt-3 text-white/80 text-sm">Or email: princegiriseo@gmail.com</p>
           </div>
           <div className="flex justify-center">
-            <img src="/profile.png" alt="Prince Giri" className="w-full  rounded-xl shadow-lg" />
+            <img src="/stand.png" alt="Prince Giri" className="w-full  rounded-xl shadow-lg" />
           </div>
         </div>
 

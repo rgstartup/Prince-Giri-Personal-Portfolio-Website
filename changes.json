@@ -678,7 +678,7 @@
             "style": "Large white button with dark text, shadow, icon"
           },
           "secondary_text": {
-            "text": "Or email me at: prince@email.com",
+            "text": "Or email me at: princegiriseo@gmail.com",
             "style": "Small white text with transparency"
           }
         },
@@ -880,8 +880,8 @@
             "items": [
               {
                 "icon": "mail",
-                "text": "prince@email.com",
-                "link": "mailto:prince@email.com"
+                "text": "princegiriseo@gmail.com",
+                "link": "mailto:princegiriseo@gmail.com"
               },
               {
                 "icon": "phone",
