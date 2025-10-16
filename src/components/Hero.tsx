@@ -7,6 +7,7 @@ export function Hero() {
       id="home"
       className="min-h-screen pt-24 bg-gradient-to-br from-light via-blue-50/30 to-light flex items-center relative overflow-hidden"
     >
+      {/* Background Effects (Keeping unchanged) */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 sm:top-20 sm:left-20 w-48 h-48 sm:w-72 sm:h-72 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-10 right-10 sm:bottom-20 sm:right-20 w-64 h-64 sm:w-96 sm:h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -15,8 +16,10 @@ export function Hero() {
 
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-[size:32px_32px] sm:bg-[size:64px_64px] bg-slate-100"></div>
 
+      {/* Main Content (Keeping unchanged) */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16 sm:py-12 lg:py-20 md:py-16 relative z-10">
         <div className="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16 items-center">
+          {/* Left Column - Text and Stats (Keeping unchanged) */}
           <div className="lg:col-span-3 space-y-6 sm:space-y-8 animate-slide-up">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-full px-3 sm:px-4 py-2">
               <span className="text-base sm:text-lg">👋</span>
@@ -98,20 +101,24 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="lg:col-span-2 relative mt-8 lg:mt-0">
+          {/* Right Column - Image and Badges */}
+          <div className="lg:col-span-2 relative mt-8 lg:mt-0 h-full flex items-center">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/20 rounded-image blur-3xl animate-gradient"></div>
 
-            <div className="relative group max-w-sm mx-auto lg:max-w-none">
+            <div className="relative group max-w-sm mx-auto lg:max-w-none h-[80vh] lg:h-full w-full">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-3xl blur-md opacity-20 group-hover:opacity-30 transition-opacity"></div>
-              <div className="relative bg-gradient-to-br from-light to-white p-2 rounded-3xl shadow-sm">
+              <div className="relative bg-gradient-to-br from-light to-white p-2 rounded-3xl shadow-sm h-full flex items-center justify-center">
                 <LazyImage
                   src="/profile.png"
                   alt="Prince Giri"
-                  className="relative rounded-2xl w-full h-auto"
+                  className="relative rounded-2xl w-full h-full object-contain lg:object-cover"
+                  width={500}
+                  height={700}
                 />
               </div>
             </div>
 
+            {/* Badges (Keeping unchanged) */}
             <div className="absolute -top-4 -right-4 sm:-top-8 sm:-right-8 bg-white rounded-2xl shadow-2xl p-4 sm:p-6 animate-float border border-slate-100">
               <div className="flex items-center gap-2 sm:gap-3">
                 <div className="bg-gradient-to-br from-primary to-secondary w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center">
@@ -146,7 +153,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll to explore - positioned outside container for perfect centering */}
+      {/* Scroll to explore (Keeping unchanged) */}
       <div className="absolute bottom-2 sm:bottom-4 md:bottom-6 left-0 right-0 flex justify-center items-center animate-bounce z-20">
         <div className="flex flex-col items-center gap-1 sm:gap-2 text-text-secondary">
           <span className="text-xs sm:text-sm font-medium">Scroll to explore</span>
