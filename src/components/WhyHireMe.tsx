@@ -99,7 +99,7 @@ export function WhyHireMe() {
               </div>
 
               <a 
-                href="/about" 
+                href="#about" 
                 className="group relative inline-block bg-primary text-white px-8 py-4 rounded-button font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-slate-800"
                 aria-label="Read more about Prince Giri's journey as a digital marketing consultant"
               >

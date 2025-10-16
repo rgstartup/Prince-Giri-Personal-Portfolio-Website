@@ -79,7 +79,7 @@ export function About() {
             </div>
 
             <a 
-              href="/about-journey" 
+              href="#about" 
               className="group relative inline-block bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-10 py-4 rounded-xl font-semibold shadow-lg shadow-cyan-600/30 hover:shadow-xl hover:shadow-cyan-600/40 transition-all hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
               aria-label="Read more about Prince Giri's professional journey"
             >
