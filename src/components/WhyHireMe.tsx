@@ -69,7 +69,7 @@ export function WhyHireMe() {
                 src="/profile.png"
                 alt="Prince Giri"
                 // className="max-w-md border-0 border-gray-300 relative rounded-xl shadow-[0_0_15px_rgba(255,255,255,0.6)] "
-                className="w-full max-w-[260px] sm:max-w-sm md:max-w-md h-auto border-0 border-gray-300 relative rounded-xl mx-auto"
+                className="w-full max-w-full sm:max-w-full md:max-w-full h-auto border-0 border-gray-300 relative rounded-xl mx-auto"
               />
             </div>
             <div className="space-y-6 order-2 lg:order-none text-center lg:text-left">

@@ -19,7 +19,7 @@ export function CTA() {
             <p className="mt-3 text-white/80 text-sm">Or email: prince@email.com</p>
           </div>
           <div className="flex justify-center">
-            <img src="/profile.png" alt="Prince Giri" className="w-full max-w-md rounded-xl shadow-lg" />
+            <img src="/profile.png" alt="Prince Giri" className="w-full  rounded-xl shadow-lg" />
           </div>
         </div>
 
