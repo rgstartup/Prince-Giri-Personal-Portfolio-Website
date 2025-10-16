@@ -1,3 +1,5 @@
+import { LazyImage } from "./LazyImage";
+
 type Example = {
   client: string;
   challenge: string;
@@ -26,7 +28,11 @@ export function CaseStudies() {
             <article key={c.client} className="bg-white rounded-card overflow-hidden shadow-sm hover:shadow-lgx transition-shadow">
               {c.image && (
                 <div className="h-44 overflow-hidden">
-                  <img src={c.image} alt={`${c.client} case study`} className="w-full h-full object-cover" />
+                  <LazyImage 
+                    src={c.image} 
+                    alt={`${c.client} case study`} 
+                    className="w-full h-full" 
+                  />
                 </div>
               )}
               <div className="p-6 space-y-3">

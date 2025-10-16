@@ -1,3 +1,5 @@
+import { LazyImage } from "./LazyImage";
+
 type Post = { category: string; title: string; excerpt: string; time: string; date: string; image?: string };
 
 const posts: Post[] = [
@@ -20,7 +22,11 @@ export function Blog() {
             <article key={p.title} className="bg-white rounded-card overflow-hidden shadow-sm hover:shadow-lgx transition-all">
               {p.image && (
                 <div className="h-44 overflow-hidden">
-                  <img src={p.image} alt={p.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                  <LazyImage 
+                    src={p.image} 
+                    alt={p.title} 
+                    className="w-full h-full hover:scale-105 transition-transform duration-300" 
+                  />
                 </div>
               )}
               <div className="p-6">

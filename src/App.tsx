@@ -1,22 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, Suspense, lazy } from "react";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import Lenis from 'lenis'
 import { Hero } from "./components/Hero";
-import { About } from "./components/About";
-import { WhyHireMe } from "./components/WhyHireMe";
-import { Differentiators } from "./components/Differentiators";
-import { CTA } from "./components/CTA";
-import { Services } from "./components/Services";
-import { Testimonials } from "./components/Testimonials";
-import { FAQ } from "./components/FAQ";
-import { Footer } from "./components/Footer";
-import { Strategies } from "./components/Strategies";
-import { CaseStudies } from "./components/CaseStudies";
-import { Process } from "./components/Process";
-import { Blog } from "./components/Blog";
-// import { FinalCTA } from "./components/FinalCTA";
 import { Header } from "./components/Header";
+
+// Lazy load non-critical components
+const About = lazy(() => import("./components/About").then(module => ({ default: module.About })));
+const WhyHireMe = lazy(() => import("./components/WhyHireMe").then(module => ({ default: module.WhyHireMe })));
+const Differentiators = lazy(() => import("./components/Differentiators").then(module => ({ default: module.Differentiators })));
+const CTA = lazy(() => import("./components/CTA").then(module => ({ default: module.CTA })));
+const Services = lazy(() => import("./components/Services").then(module => ({ default: module.Services })));
+const Testimonials = lazy(() => import("./components/Testimonials").then(module => ({ default: module.Testimonials })));
+const FAQ = lazy(() => import("./components/FAQ").then(module => ({ default: module.FAQ })));
+const Footer = lazy(() => import("./components/Footer").then(module => ({ default: module.Footer })));
+const Strategies = lazy(() => import("./components/Strategies").then(module => ({ default: module.Strategies })));
+const CaseStudies = lazy(() => import("./components/CaseStudies").then(module => ({ default: module.CaseStudies })));
+const Process = lazy(() => import("./components/Process").then(module => ({ default: module.Process })));
+const Blog = lazy(() => import("./components/Blog").then(module => ({ default: module.Blog })));
 
 function App() {
   useEffect(() => {
@@ -69,19 +70,42 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <About />
-      <WhyHireMe />
-      <Differentiators />
-      <CTA />
-      <Services />
-      <Strategies />
-      <CaseStudies />
-      <Process />
-      <Blog />
-      {/* <FinalCTA /> Nott Using */}
-      <Testimonials />
-      <FAQ />
-      <Footer />
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <About />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <WhyHireMe />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Differentiators />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[200px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <CTA />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Services />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Strategies />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <CaseStudies />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Process />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Blog />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Testimonials />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[400px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <FAQ />
+      </Suspense>
+      <Suspense fallback={<div className="min-h-[200px] flex items-center justify-center"><div className="animate-pulse">Loading...</div></div>}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }

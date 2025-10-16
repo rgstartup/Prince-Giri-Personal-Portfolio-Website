@@ -2,9 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/black-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prince Giri Personal Portfolio Website</title>
+    <meta name="description" content="Prince Giri - Digital Marketing Consultant specializing in SEO, PPC, and growth strategies. Transform your business with data-driven marketing solutions." />
+    <meta name="keywords" content="digital marketing, SEO, PPC, marketing consultant, Prince Giri, growth strategies" />
+    <meta name="author" content="Prince Giri" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://princegiri.com/" />
+    <meta property="og:title" content="Prince Giri - Digital Marketing Consultant" />
+    <meta property="og:description" content="Transform your business with data-driven marketing strategies. Expert in SEO, PPC, and growth optimization." />
+    <meta property="og:image" content="/profile.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://princegiri.com/" />
+    <meta property="twitter:title" content="Prince Giri - Digital Marketing Consultant" />
+    <meta property="twitter:description" content="Transform your business with data-driven marketing strategies. Expert in SEO, PPC, and growth optimization." />
+    <meta property="twitter:image" content="/profile.png" />
+    
+    <title>Prince Giri - Digital Marketing Consultant | SEO & PPC Expert</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/profile.png" as="image" />
+    <link rel="preload" href="/black-logo.png" as="image" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.pexels.com" />
+    
+    <!-- DNS prefetch for performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    
+    <!-- Optimized font loading with display=swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+      /* Critical styles for header and hero section */
+      body { font-family: 'Inter', system-ui, -apple-system, sans-serif; margin: 0; padding: 0; }
+      .min-h-screen { min-height: 100vh; }
+      .fixed { position: fixed; }
+      .top-0 { top: 0; }
+      .left-0 { left: 0; }
+      .right-0 { right: 0; }
+      .z-50 { z-index: 50; }
+      .bg-white { background-color: white; }
+      .backdrop-blur-xl { backdrop-filter: blur(24px); }
+      .transition-all { transition: all 0.3s ease; }
+      .container { max-width: 1200px; margin: 0 auto; }
+      .mx-auto { margin-left: auto; margin-right: auto; }
+      .px-4 { padding-left: 1rem; padding-right: 1rem; }
+      .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+      .flex { display: flex; }
+      .items-center { align-items: center; }
+      .justify-between { justify-content: space-between; }
+      .gap-2 { gap: 0.5rem; }
+      .w-12 { width: 3rem; }
+      .h-12 { height: 3rem; }
+      .rounded-xl { border-radius: 0.75rem; }
+      .object-cover { object-fit: cover; }
+      .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+      .font-bold { font-weight: 700; }
+      .text-dark { color: #1e293b; }
+      .leading-tight { line-height: 1.25; }
+      .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+      .from-primary { --tw-gradient-from: #2563eb; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(37, 99, 235, 0)); }
+      .to-secondary { --tw-gradient-to: #10b981; }
+      .bg-clip-text { background-clip: text; }
+      .text-transparent { color: transparent; }
+      .pt-24 { padding-top: 6rem; }
+      .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+      .from-light { --tw-gradient-from: #f8fafc; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(248, 250, 252, 0)); }
+      .via-blue-50 { --tw-gradient-stops: var(--tw-gradient-from), #eff6ff, var(--tw-gradient-to, rgba(239, 246, 255, 0)); }
+      .to-light { --tw-gradient-to: #f8fafc; }
+      .relative { position: relative; }
+      .overflow-hidden { overflow: hidden; }
+      .grid { display: grid; }
+      .lg\\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .gap-8 { gap: 2rem; }
+      .lg\\:col-span-3 { grid-column: span 3 / span 3; }
+      .space-y-6 > * + * { margin-top: 1.5rem; }
+      .animate-slide-up { animation: slideUp 0.6s ease-out; }
+      @keyframes slideUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

@@ -1,4 +1,5 @@
 import { ArrowRight, Rocket, Award, Calendar, Star } from "lucide-react";
+import { LazyImage } from "./LazyImage";
 
 export function Hero() {
   return (
@@ -12,7 +13,7 @@ export function Hero() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] bg-gradient-to-r from-primary/5 to-secondary/5 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-[size:32px_32px] sm:bg-[size:64px_64px] bg-slate-300"></div>
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-[size:32px_32px] sm:bg-[size:64px_64px] bg-slate-100"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-12 lg:py-20 md:py-16 relative z-10">
         <div className="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16 items-center">
@@ -103,10 +104,10 @@ export function Hero() {
             <div className="relative group max-w-sm mx-auto lg:max-w-none">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-3xl blur-md opacity-20 group-hover:opacity-30 transition-opacity"></div>
               <div className="relative bg-gradient-to-br from-light to-white p-2 rounded-3xl shadow-sm">
-                <img
+                <LazyImage
                   src="/profile.png"
                   alt="Prince Giri"
-                  className="relative rounded-2xl w-full h-auto object-cover"
+                  className="relative rounded-2xl w-full h-auto"
                 />
               </div>
             </div>

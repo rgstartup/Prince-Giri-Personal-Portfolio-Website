@@ -7,7 +7,31 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-   server: {
+  server: {
     port: 3000,
+  },
+  build: {
+    target: 'esnext',
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          gsap: ['gsap'],
+          lenis: ['lenis'],
+          lucide: ['lucide-react'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
+  },
+  css: {
+    devSourcemap: false,
   },
 });
