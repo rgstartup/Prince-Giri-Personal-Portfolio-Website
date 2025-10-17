@@ -29,14 +29,14 @@ export function Hero() {
             </div>
 
             <div className="space-y-4 sm:space-y-6">
-              <h1 className="text-dark leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+              <h1 className="text-dark leading-tight text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
                 Digital Marketing Consultant Who Drives{" "}
                 <span className="text-gradient from-primary to-secondary">
                   Real Growth
                 </span>
               </h1>
 
-              <p className="max-w-xl text-sm sm:text-base text-text-secondary">
+              <p className="max-w-xl text-base sm:text-base text-text-secondary">
                 Transforming businesses through data-driven strategies, creative
                 campaigns, and measurable results. Let's scale your brand
                 together.
